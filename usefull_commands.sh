@@ -1,4 +1,10 @@
 #This program containing usefull commands and its explanation
+#This is just short usefull command lists which I think usefull for linux bash shell script writing.
+#Reference : Wiley.Linux.Command.Line.and.Shell.Scripting.Bible.May.2008 
+#Build Date : 30.04.2021
+#Writer : Bapon kar
+
+
 
 cp file1 file2 #copying from file1 to file2
 cp -R dir1 dir2 #copying all content of dir1 to dir2
