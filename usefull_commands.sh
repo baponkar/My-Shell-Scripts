@@ -103,7 +103,7 @@ echo ${mytest[*]} #giving whole array
 #secure password stored at
 sudo /etc/shadow
 sudo apt install whois #To install whois which create sha-512 etc encryption hash password
-
+mkpasswd -m sha-512 #Making sha-512 hash
 
 chmod 755 file #Changing file permission
 chown user file #Changi n ownership of the file
@@ -176,4 +176,13 @@ return 0
 
 echo  -e "\e[6;4mThis is a test[0;0m"
 
+#creating shortcut of a command
+alias p=pwd #here p gives the result of pwd command
+echo $BASH_VERSION
+echo $EUID #current user id
+echo $RANDOM #rndom number in between 0 to 99999
+
+#Find a file inside of a directory
+find /etc -name passwd
+find /etc -iname '*passwd*'
 
